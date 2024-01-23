@@ -22,7 +22,7 @@
                 clifford: '#da373d',
                 "color-1": '#FF4240',
                 "color-2h":  '#131318',
-                "p-color": 'rgba(0, 0, 0, 0.80)'
+                "p-color": 'rgba(0, 0, 0, 0.80)',
                 "pp-color":'rgba(255, 255, 255, 0.6)'
               }
             }
@@ -88,12 +88,20 @@
     ---------------------------------------------------->
     <main class="font-Manrope sm:mx-5">
         <section class="md:container md:mx-auto ">
-            <div class="carousel w-full  z-10  z-10">
+            <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full ">
                   <img src="Images/1.png" class="lg:h-[34rem] w-full relative" />
                   <div class="absolute flex gap-8 transform -translate-y-1/2 left-8 right-5 top-[90%]">
                     <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                  <!-- banner pop up -->
+                  <div class="bg-black text-white p-8 lg:w-[40%] rounded-2xl sm:mt-4  lg:absolute transform  lg:-translate-y-1/2 top-[74%] 
+                     left-[57%] dark:bg-slate-800 hidden lg:flex">
+                    <div>
+                      <h5 class="text-2xl font-extrabold">Meet all the heroes from the field</h5>
+                      <p class=" text-base font-medium text-[#FFFFFF99] mt-4">Fast-paced ice sport. Skillful skating, teamwork, and strategy. Goals, saves, checks. Intense competition. Passionate fans. Iconic tradition.</p>
+                    </div>
                   </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
@@ -102,12 +110,28 @@
                     <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
                     <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
                   </div>
+                  <!-- banner pop up -->
+                  <div class="bg-black text-white p-8 lg:w-[40%] rounded-2xl sm:mt-4  lg:absolute transform  lg:-translate-y-1/2  z-30 top-[74%] 
+                     left-[57%] dark:bg-slate-800 hidden lg:flex">
+                    <div>
+                      <h5 class="text-2xl font-extrabold">Meet all the heroes from the field</h5>
+                      <p class=" text-base font-medium text-[#FFFFFF99] mt-4">Fast-paced ice sport. Skillful skating, teamwork, and strategy. Goals, saves, checks. Intense competition. Passionate fans. Iconic tradition.</p>
+                    </div>
+                  </div>
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
                   <img src="Images/3.png" class="lg:h-[34rem] w-full" />
                   <div class="absolute flex gap-8 transform -translate-y-1/2 left-8 right-5 top-[90%]">
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
                     <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                  <!-- banner pop up -->
+                  <div class="bg-black text-white p-8 lg:w-[40%] rounded-2xl sm:mt-4  lg:absolute transform  lg:-translate-y-1/2  z-30 top-[74%] 
+                     left-[57%] dark:bg-slate-800 hidden lg:flex">
+                    <div>
+                      <h5 class="text-2xl font-extrabold">Meet all the heroes from the field</h5>
+                      <p class=" text-base font-medium text-[#FFFFFF99] mt-4">Fast-paced ice sport. Skillful skating, teamwork, and strategy. Goals, saves, checks. Intense competition. Passionate fans. Iconic tradition.</p>
+                    </div>
                   </div>
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
@@ -116,15 +140,25 @@
                     <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a> 
                     <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                   </div>
+                  <!-- banner pop up -->
+                  <div class="bg-black text-white p-8 lg:w-[40%] rounded-2xl sm:mt-4  lg:absolute transform  lg:-translate-y-1/2  z-30 top-[74%] 
+                     left-[57%] dark:bg-slate-800 hidden lg:flex">
+                    <div>
+                      <h5 class="text-2xl font-extrabold">Meet all the heroes from the field</h5>
+                      <p class=" text-base font-medium text-[#FFFFFF99] mt-4">Fast-paced ice sport. Skillful skating, teamwork, and strategy. Goals, saves, checks. Intense competition. Passionate fans. Iconic tradition.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <!--  -->
-              <div class="bg-black text-white p-8 lg:w-[40%] rounded-2xl sm:mt-4  lg:absolute transform  lg:-translate-y-1/2 left- z-30 top-[62%] 
-              left-[48%] dark:bg-slate-800">
-                <h5 class="text-2xl font-extrabold">Meet all the heroes from the field</h5>
-                <p class=" text-base font-medium text-[#FFFFFF99] mt-4">Fast-paced ice sport. Skillful skating, teamwork, and strategy. Goals, saves, checks. Intense competition. Passionate fans. Iconic tradition.</p>
+              <!-- pop up for sm -->
+              <div class="bg-black text-white p-8 lg:w-[40%] rounded-2xl sm:mt-4      
+                     l dark:bg-slate-800 lg:hidden  mb-10">
+                    <div>
+                      <h5 class="text-2xl font-extrabold">Meet all the heroes from the field</h5>
+                      <p class=" text-base font-medium text-[#FFFFFF99] mt-4">Fast-paced ice sport. Skillful skating, teamwork, and strategy. Goals, saves, checks. Intense competition. Passionate fans. Iconic tradition.</p>
+                    </div>
               </div>
-              <div class="border-dashed mt-28">
+              <div class="border-dashed lg:mt-28 ">
                 <hr>
               </div> 
         </section>
@@ -238,7 +272,7 @@
           <!-- product card -->
           <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
             <!-- card-1 -->
-            <div class="flex flex-col  lg:flex-row gap-5 border border-slate-300 rounded-2xl p-6">
+            <div class="flex flex-col  lg:flex-row gap-6 border border-slate-300 rounded-2xl p-6">
               <img src="Images/5.png" alt="">
               <div>
                 <div class="flex gap-2 items-center">
