@@ -23,6 +23,7 @@
                 "color-1": '#FF4240',
                 "color-2h":  '#131318',
                 "p-color": 'rgba(0, 0, 0, 0.80)'
+                "pp-color":'rgba(255, 255, 255, 0.6)'
               }
             }
           }
@@ -476,56 +477,131 @@
         <section class="md:container mx-auto my-28">
           <div>
             <div>
-              <hr class="mb-8 ">
+              <div>
+                <hr class="mb-8 ">
+              </div>
+              <div>
+                <!-- Get In Touch section header -->
+                  <div class="text-center lg:w-[50%] lg:mx-auto my-8 dark:bg-slate-800 dark:text-white dark:rounded-lg">
+                    <h2 class="text-4xl font-extrabold ">Get In Touch</h2>
+                    <p class="text-base font-medium text-[#13131899] mt-6 dark:text-[#FFFFFF99]">Contact us: Reach out for inquiries, assistance, or collaboration. Friendly, prompt support awaits. We look forward to hearing from you!</p>
+                  </div>
+              </div>
+              <!-- hr line -->
+              <div>
+                <hr class="mb-8 ">
+              </div>
             </div>
-            <div>
-              <!-- Get In Touch section header -->
-                <div class="text-center lg:w-[50%] lg:mx-auto my-8 dark:bg-slate-800 dark:text-white dark:rounded-lg">
-                  <h2 class="text-4xl font-extrabold ">Get In Touch</h2>
-                  <p class="text-base font-medium text-[#13131899] mt-6 dark:text-[#FFFFFF99]">Contact us: Reach out for inquiries, assistance, or collaboration. Friendly, prompt support awaits. We look forward to hearing from you!</p>
+            <div class="flex flex-col lg:flex-row gap-6 ">
+              <!-- left -->
+              <div class="grid gap-6 p-12 border-2 rounded-2xl border-[#1313181A] mb-12">
+                <!-- card-1 -->
+                <div class="card  bg-[#BCED6D1A] text-primary-content">
+                  <div class="card-body mb-12">
+                    <img src="Images/phone.png" class="w-12 mb-6" alt="phone">
+                    <p class="text-base text-[#13131899]">Phone Number :</p>
+                    <h2 class="text-xl font-extrabold text-[#131318]">(+62) 123-321-543</h2>
+                  </div>
                 </div>
-            </div>
-            <!-- hr line -->
-            <div>
-              <hr class="mb-8 ">
+                <!-- card-2 -->
+                <div class="card  bg-[#fddd5f26] text-primary-content">
+                  <div class="card-body mb-12">
+                    <img src="Images/mail.png" class="w-12 mb-6" alt="phone">
+                    <p class="text-base text-[#13131899]">Email :</p>
+                    <h2 class="text-xl font-extrabold text-[#131318]">hockeys@support.com</h2>
+                  </div>
+                </div>
+                <!-- card-3 -->
+                <div class="card  bg-[#629CF31A] text-primary-content">
+                  <div class="card-body mb-12">
+                    <img src="Images/location.png" class="w-12 mb-6" alt="phone">
+                    <p class="text-base text-[#13131899]">Location :</p>
+                    <h2 class="text-xl font-extrabold text-[#131318]">152/1 Mohakhali Wireless Gate</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+              <div class="">
+                <!-- data -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                  <!-- input-1 -->
+                  <div >
+                    <p class="text-xl font-bold mb-4" >Your Name</p>
+                    <div class=" bordered rounded-xl border-[#1313181A] bg-[#13131805] py-6 pl-5  text-base w-full row-span-3" > 
+                      <input type="text" placeholder="Enter your full name" class="bg-transparent"/>
+                    </div>
+                  </div>
+                  
+                <button class="btn bg-color-1 text-white mt-8 w-full py-4">Send Message</button>
+              </div>
             </div>
           </div>
-          <div>
-            <!-- left -->
-            <div class="border-2 rounded-2xl border-[#1313181A]">
-              <!-- card-1 -->
-              <div class="card w-96 bg-[#BCED6D1A] text-primary-content">
-                <div class="card-body mb-12">
-                  <img src="Images/phone.png" class="w-12 mb-6" alt="phone">
-                  <p class="text-base text-[#13131899]">Phone Number :</p>
-                  <h2 class="text-xl font-extrabold text-[#131318]">(+62) 123-321-543</h2>
-                </div>
-              </div>
-              <!-- card-2 -->
-              <div class="card w-96 bg-[#BCED6D1A] text-primary-content">
-                <div class="card-body mb-12">
-                  <img src="Images/phone.png" class="w-12 mb-6" alt="phone">
-                  <p class="text-base text-[#13131899]">Email :</p>
-                  <h2 class="text-xl font-extrabold text-[#131318]">hockeys@support.com</h2>
-                </div>
-              </div>
-              <!-- card-3 -->
-              <div class="card w-96 bg-[#BCED6D1A] text-primary-content">
-                <div class="card-body mb-12">
-                  <img src="Images/phone.png" class="w-12 mb-6" alt="phone">
-                  <p class="text-base text-[#13131899]">Location :</p>
-                  <h2 class="text-xl font-extrabold text-[#131318]">152/1 Mohakhali Wireless Gate</h2>
-                </div>
-              </div>
+          <!-- social section -->
+          <div class="mt-12 bg-[#13131805] text-center rounded-xl py-9">
+            <h4 class=" mb-6 text-2xl font-extrabold">Social Media</h4>
+            <div class="flex justify-center gap-6">
+              
+              <i class="fa fa-twitter " aria-hidden="true"></i>
+              <i class="fa fa-facebook-f" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-github" aria-hidden="true"></i>
             </div>
-            <!-- right -->
-            <div></div>
+
           </div>
+
 
 
         </section>
 
     </main>
+    <!-- ------------------------------------------------
+        footer section code here
+    ---------------------------------------------------->
+    <footer class=" font-Manrope bg-[#131318]  px-36 py-24  text-neutral-content ">
+      <!-- grid grid-cols-1 lg:grid-cols-4   -->
+      <div class="flex flex-col lg:flex-row justify-between gap-12 sm:text-center lg:text-left">
+        <nav class="lg:w-[15%]">
+          <header class=" text-lg font-extrabold text-white mb-4">Get In Touch</header> 
+          <p class="text-[#FFFFFF99] font-medium leading-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          <div class="flex flex-col items-center lg:items-start">
+            <div class="flex items-center gap-4 mt-6">
+              <i class="fa-regular fa-envelope text-2xl text-[#FF4240]"></i>
+              <p class="font-medium text-[#FFFFFF99]" >hockeys@support.com</p>
+            </div>
+            <div class="flex items-center gap-4 mt-4">
+              <img class="w-6" src="Images/phon2.png" alt="">
+              <p class="text-[#FFFFFF99]">(+62) 123-321-543</p>
+            </div>
+          </div>
+        </nav> 
+        <div class="flex justify-between lg:gap-96">
+          <nav class="grid gap-6 ">
+            <header class=" text-white">Company</header> 
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">About us</a></p>
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Leadership</a></p>
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Careers</a></p>
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">News & Article</a></p>
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Legal Notice</a></p>
+          </nav> 
+          <nav class="grid ">
+            <header class="text-white">Support</header> 
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Help Center</a></p>
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">FAQ</a></p>
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Ticket Support</a></p>
+            <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Contact Us</a></p>
+          </nav>
+        </div>
+        <nav class="grid gap-6">
+          <header class="text-white">Services</header> 
+          <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Academy</a></p>
+          <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Group Lesson</a></p>
+          <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Private Lesson</a></p>
+          <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Hockeys for kids</a></p>
+          <p class="text-[#FFFFFF99] font-medium"><a class="link link-hover">Hockeys for Adult</a></p>
+        </nav>
+      </div> 
+    </footer>
     
+        
 </body>
 </html>
